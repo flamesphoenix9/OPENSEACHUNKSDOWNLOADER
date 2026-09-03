@@ -1,0 +1,20 @@
+{
+  "name": "chunkdownloader",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Phoenix",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node init && tsx src/index.js",
+    "build": "node init && tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.0",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.3.2",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  }
+}
